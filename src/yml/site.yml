@@ -1,24 +1,23 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Echoplay
+title: Echoplay | Έλα να παίξουμε μαζί!
+description: Το Echoplay είναι ένας ιστότοπος όπου βρισκόμαστε για να παίξουμε, να συζητήσουμε και να διασκεδάσουμε! Από τη Νικολέττα Χαλδαιοπούλου.
 tags:
   - blog
   - template
   - jekyll
   - theme
   - netlify
-show_hero: true
+show_hero: false
 menu:
-  - title: Home
+  - title: Αρχική
     url: /
-  - title: About
+  - title: Σχετικά
     url: /about
-  - title: Contact
+  - title: Επικονωνία
     url: /contact
-  - title: Feed
+  - title: Ροή
     url: /feed.xml
-email: youremail@test.com
+email: n.chaldeopoulou@gmail.com
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
