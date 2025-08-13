@@ -8,6 +8,7 @@ tags:
   - theme
   - netlify
 show_hero: false
+hero: /assets/img/echoplay-hero.jpg
 menu:
   - title: Αρχική
     url: /

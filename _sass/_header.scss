@@ -4,7 +4,7 @@ body {
 }
 
 .bar-header {
-  background-color: $primaryDark;
+  background-color: $headerBackground;
   padding: rem(10px) rem(15px);
   position: fixed;
   left: 0;
@@ -43,7 +43,7 @@ body {
   }
 
   .version {
-    color: $themeColor;
+    color: $accentLight;
     font-size: rem(10px);
     font-weight: normal;
     line-height: 1;
@@ -61,7 +61,7 @@ body {
     margin: rem(5px) rem(20px) rem(5px) 0;
     width: rem(20px);
     height: rem(20px);
-    fill: $themeColor;
+    fill: $accentLight;
 
     @include media(">=sm") {
       margin: rem(5px) rem(20px) rem(5px) rem(25px);
@@ -82,7 +82,7 @@ body {
   .icon-search {
     width: rem(20px);
     height: rem(20px);
-    fill: $themeColor;
+    fill: $accentLight;
     margin: rem(5px);
   }
 
@@ -106,28 +106,24 @@ body {
 
 body.main-page {
   background-color: $backgroundLight;
-
-  .bar-header {
-    background-color: #fe6f5e;
-  }
 }
 
-body.light:not(.main-page) {
+/*body.light:not(.main-page) {
   .bar-header {
     box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
     background-color: rgba(255, 255, 255, 0.95);
 
     .icon-search,
     .icon-menu {
-      fill: $themeColor;
+      fill: $accentLight;
     }
 
     .logo a,
     .version {
-      color: $themeColor;
+      color: $accentLight;
     }
   }
-}
+}*/
 
 .overlay {
   position: fixed;
