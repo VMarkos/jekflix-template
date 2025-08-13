@@ -24,7 +24,7 @@ body {
 
     a {
       display: block;
-      color: $accentDark;
+      color: $accentLight;
       text-decoration: none;
       font-size: rem(32px);
       position: relative;
@@ -43,7 +43,7 @@ body {
   }
 
   .version {
-    color: $accentDark;
+    color: $themeColor;
     font-size: rem(10px);
     font-weight: normal;
     line-height: 1;
@@ -61,7 +61,7 @@ body {
     margin: rem(5px) rem(20px) rem(5px) 0;
     width: rem(20px);
     height: rem(20px);
-    fill: $accentDark;
+    fill: $themeColor;
 
     @include media(">=sm") {
       margin: rem(5px) rem(20px) rem(5px) rem(25px);
@@ -82,7 +82,7 @@ body {
   .icon-search {
     width: rem(20px);
     height: rem(20px);
-    fill: $accentDark;
+    fill: $themeColor;
     margin: rem(5px);
   }
 
@@ -92,7 +92,7 @@ body {
     font-weight: bold;
     text-decoration: none;
     background-color: $themeColor;
-    color: $accentDark;
+    color: $accentLight;
     padding: rem(5px) rem(10px);
     border-radius: rem(5px);
     float: right;
@@ -105,10 +105,10 @@ body {
 }
 
 body.main-page {
-  background-color: #141414;
+  background-color: $backgroundLight;
 
   .bar-header {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: #fe6f5e;
   }
 }
 
@@ -119,12 +119,12 @@ body.light:not(.main-page) {
 
     .icon-search,
     .icon-menu {
-      fill: $primaryDark;
+      fill: $themeColor;
     }
 
     .logo a,
     .version {
-      color: $primaryDark;
+      color: $themeColor;
     }
   }
 }

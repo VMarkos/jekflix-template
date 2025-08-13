@@ -76,7 +76,7 @@
 
       .cover {
         .new-post-tag {
-          background-color: $backgroundLight;
+          background-color: $themeColor;
         }
 
         .read-icon {
@@ -130,7 +130,8 @@
 
     p {
       margin: 0 0 rem(30px);
-      color: darken($lightGray, 20%);
+      /* color: darken($lightGray, 20%); */
+      color: $texts;
       font-size: rem(17px);
       line-height: rem(26px);
     }

@@ -9,7 +9,7 @@
 #=include posts.yml
 
 # Advanced Settings
-=include advanced.yml
+#=include advanced.yml
 
 # Build settings
 markdown: kramdown
